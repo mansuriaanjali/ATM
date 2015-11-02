@@ -151,6 +151,8 @@ public class Message
     public int getToAccount()
     {
         return toAccount;
+
+   //     return fromAccount; ( injected bug from group 5 - unreachable code)
     }
     
     /** Accessor for acmount

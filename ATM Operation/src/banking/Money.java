@@ -70,6 +70,8 @@ public class Money
     public boolean lessEqual(Money compareTo)
     {
         return this.cents <= compareTo.cents;
+       // return this.cents < compareTo.cents; (injected bug from group 5 - code unreachable 
+
     }
     
     /** Instance variable: this amount represented as a number of cents 

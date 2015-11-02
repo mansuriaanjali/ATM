@@ -42,6 +42,8 @@ class SimReceiptPrinter extends Panel
         });
         
         take.setVisible(false);
+        //take.setVisible(true); (injected bug from group 5-take receipt button was visable by default even if no data in printArea
+
     }
     
     /** Print line to receipt
