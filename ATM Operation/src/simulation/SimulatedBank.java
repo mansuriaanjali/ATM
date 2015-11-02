@@ -138,6 +138,7 @@ public class SimulatedBank
                              AVAILABLE_BALANCE [ accountNumber ]);
       // BALANCE [ accountNumber ]); injected bug from group 5 compile time error - type mismatch cannot convert from money to int
         return new Success();
+        
     }    
     
     /** Simulate processing of a transfer
